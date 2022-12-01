@@ -44,7 +44,7 @@ if (cantidadEdades==2){
 if (cantidadEdades==1){
     alert("ingrese la edad");
 
-    let primerNum=parseInt(prompt("ingrese la primer edad"))
+    let primerNum=parseInt(prompt("ingrese la unica edad"))
 
     function CalculadorDeEdadPromedio1(){
         let resultado=(primerNum)/1;
