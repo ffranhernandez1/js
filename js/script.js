@@ -25,7 +25,7 @@ btnGuardarDatosLocales.addEventListener("click",(e)=>{
 btnGuardarDatosSesion.addEventListener("click",(e)=>{
     e.preventDefault()
     sessionStorage.setItem('nombre', nombreFormulario.value)
-    sessionStorage.setItem('email', correoFormulario.value)
+    sessionStorage.setItem('email', correoFormulario.value)  
 })
 
 btnBorrarDatosLocales.addEventListener("click",(e)=>{
@@ -40,7 +40,9 @@ btnBorrarDatosSesion.addEventListener("click",(e)=>{
 
 let formulario = document.querySelector("#formulario");
 
-let infoFormulario = document.querySelector("#info");
+let infoFormulario = document.querySelector(".info");
+
+infoFormulario.innerHTML = ` ${localStorage.getItem('nombre')}`
 
 const mostrarInfo = formulario.addEventListener("submit", function(e){
     e.preventDefault();
@@ -51,6 +53,8 @@ const mostrarInfo = formulario.addEventListener("submit", function(e){
     </h4></div>
     `
 });
+
+
 
 
 
