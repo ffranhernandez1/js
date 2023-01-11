@@ -10,6 +10,34 @@ correoFormulario.addEventListener("input", function(){
 
 })
 
+let btnGuardarDatosLocales = document.querySelector(".boton-2");
+let btnGuardarDatosSesion = document.querySelector(".boton-3")
+let btnBorrarDatosLocales = document.querySelector(".boton-4");
+let btnBorrarDatosSesion = document.querySelector(".boton-5");
+
+
+btnGuardarDatosLocales.addEventListener("click",(e)=>{
+    e.preventDefault()
+    localStorage.setItem('nombre', nombreFormulario.value)
+    localStorage.setItem('email', correoFormulario.value)
+})
+
+btnGuardarDatosSesion.addEventListener("click",(e)=>{
+    e.preventDefault()
+    sessionStorage.setItem('nombre', nombreFormulario.value)
+    sessionStorage.setItem('email', correoFormulario.value)
+})
+
+btnBorrarDatosLocales.addEventListener("click",(e)=>{
+    e.preventDefault()
+    localStorage.clear()
+})
+
+btnBorrarDatosSesion.addEventListener("click",(e)=>{
+    e.preventDefault()
+    sessionStorage.clear()
+})
+
 let formulario = document.querySelector("#formulario");
 
 let infoFormulario = document.querySelector("#info");
@@ -23,6 +51,11 @@ const mostrarInfo = formulario.addEventListener("submit", function(e){
     </h4></div>
     `
 });
+
+
+
+// CODIGO DE CARRITO
+
 
 
 const productos = document.querySelectorAll(".producto");
