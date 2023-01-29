@@ -1,0 +1,47 @@
+[
+    {
+        "id":"01",
+        "nombre":"producto 1",
+        "img":"./asets/img/imagen-3.jpg"
+    },
+    {
+        "id":"02",
+        "nombre":"producto 2",
+        "img":"./asets/img/imagen-4.jpg"
+    },
+    {
+        "id":"03",
+        "nombre":"producto 3",
+        "img":"./asets/img/imagen-5.jpg"
+    },
+    {
+        "id":"04",
+        "nombre":"producto 4",
+        "img":"./asets/img/imagen-6.jpg"
+    },
+    {
+        "id":"05",
+        "nombre":"producto 5",
+        "img":"./asets/img/imagen-7.jpg"
+    },
+    {
+        "id":"06",
+        "nombre":"producto 6",
+        "img":"./asets/img/imagen-8.jpg"
+    },
+    {
+        "id":"07",
+        "nombre":"producto 7",
+        "img":"./asets/img/imagen-9.jpg"
+    },
+    {
+        "id":"08",
+        "nombre":"producto 8",
+        "img":"./asets/img/imagen-10.jpg"
+    },
+    {
+        "id":"09",
+        "nombre":"producto 9",
+        "img":"./asets/img/imagen-11.jpg"
+    }
+]

@@ -55,7 +55,7 @@ body {
     margin-bottom: 40px;
 }
       
-.boton-carrito {
+.btnAgregarCarro {
     color: #000;
     text-align: center;
     display: inline-block;
@@ -64,7 +64,7 @@ body {
     margin-bottom: 30px;
     align-items: center;}
       
-.boton-carrito:hover {
+.btnAgregarCarro:hover {
     color: #000;
     text-align: center;
     display: inline-block;

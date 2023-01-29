@@ -18,45 +18,19 @@
     <meta name="copyright" content="Urban Style">
 </head>
 <body>
-  <section>
-  <h1>Bienvenido<span class="info"></span></h1>
-    <div class="div-input">
-        <form action="/redirection" id="formulario">
-        <h5>ingrese su nombre</h5>
-        <input type="text" class="input-1" id="ingresar-nombre" required>
-        <h5>ingrese su email</h5>
-        <input type="email" class="input-1" id="ingresar-correo" required>
-    </div>
-    <div class="div-boton"><button class="boton-1" type="submit">enviar</button></div>
-    <div class="div-boton"><button class="boton-2" type="submit">guardar datos locales</button></div>
-    <div class="div-boton"><button class="boton-3" type="submit">guardar datos de sesion</button></div>
-    <div class="div-boton"><button class="boton-4" type="submit">borrar datos locales</button></div>
-    <div class="div-boton"><button class="boton-5" type="submit">borrar datos de sesion</button></div>
-        </form>
-    <div>
-        <div class="info-formulario" id="info"></div>
-    </div>
-  </section>
-
   <section class="container-3">
     <h2 class="titulo-2">Productos</h2>
-    <div class="grid-productos">
-        <div class="producto"><h4 class="titulo-producto">producto 1</h4><img src="./asets/img/imagen-3.jpg" class="imagen"><button class="boton-carrito" data-id="1">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 2</h4><img src="./asets/img/imagen-4.jpg" class="imagen"><button class="boton-carrito" data-id="2">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 3</h4><img src="./asets/img/imagen-5.jpg" class="imagen"><button class="boton-carrito" data-id="3">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 4</h4><img src="./asets/img/imagen-6.jpg" class="imagen"><button class="boton-carrito" data-id="4">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 5</h4><img src="./asets/img/imagen-7.jpg" class="imagen"><button class="boton-carrito" data-id="5">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 6</h4><img src="./asets/img/imagen-8.jpg" class="imagen"><button class="boton-carrito" data-id="6">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 7</h4><img src="./asets/img/imagen-9.jpg" class="imagen"><button class="boton-carrito" data-id="7">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 8</h4><img src="./asets/img/imagen-10.jpg" class="imagen"><button class="boton-carrito" data-id="8">agregar al carrito</button></div>
-        <div class="producto"><h4 class="titulo-producto">producto 9</h4><img src="./asets/img/imagen-11.jpg" class="imagen"><button class="boton-carrito" data-id="9">agregar al carrito</button></div>
+    <div class="grid-productos" id="grid">
     </div>
+    <H2>Carrito</H2>
     <div class="carro"></div>
+    <div class="div-boton"><button class="boton-4" type="submit">vaciar carrito</button></div>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
   <script src="./js/script.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
 
